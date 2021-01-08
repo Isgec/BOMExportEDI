@@ -23,7 +23,7 @@ Public Class cadConverter
   Private jpConfig As ConfigFile = Nothing
   Private Job As jobFile = Nothing
   Private TitleBlockName As String = ""
-
+  'Changed
   Public Sub ReadJobFile(ByVal jFile As String)
     Try
       Dim FileName As String = jpConfig.JobPathWorking & "\" & jFile
